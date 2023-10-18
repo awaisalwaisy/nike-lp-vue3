@@ -9,7 +9,10 @@ export default defineConfig({
   plugins: [
     vue(),
     Components({
-      dirs: ['src/components', 'src/sections']
+      extensions: ['vue', 'md', 'svg'],
+      include: [/\.vue($|\?)/, /\.md($|\?)/],
+      dirs: ['src/components', 'src/sections'],
+      dts: 'src/components.d.ts'
     })
   ],
   resolve: {
