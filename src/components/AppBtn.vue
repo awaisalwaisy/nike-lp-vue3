@@ -11,11 +11,11 @@ import { computed } from 'vue'
 
 type Props = {
   label: string
-  iconURL: string
-  backgroundColor: string
-  textColor: string
-  borderColor: string
-  fullWidth: boolean
+  iconURL?: string
+  backgroundColor?: string
+  textColor?: string
+  borderColor?: string
+  fullWidth?: boolean
 }
 
 const props = defineProps<Props>()

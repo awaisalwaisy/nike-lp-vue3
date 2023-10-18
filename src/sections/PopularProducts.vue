@@ -21,5 +21,3 @@
 <script setup lang="ts">
 import { products } from '../constants'
 </script>
-
-<style scoped></style>

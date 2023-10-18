@@ -10,8 +10,13 @@ declare module 'vue' {
     AppBtn: typeof import('./components/AppBtn.vue')['default']
     GlobalNav: typeof import('./components/GlobalNav.vue')['default']
     HomeHero: typeof import('./sections/HomeHero.vue')['default']
+    OurServices: typeof import('./sections/OurServices.vue')['default']
     PopularProductCard: typeof import('./components/PopularProductCard.vue')['default']
     PopularProducts: typeof import('./sections/PopularProducts.vue')['default']
+    ServiceCard: typeof import('./components/ServiceCard.vue')['default']
+    Services: typeof import('./sections/Services.vue')['default']
     ShoeCard: typeof import('./components/ShoeCard.vue')['default']
+    SpecialOffer: typeof import('./sections/SpecialOffer.vue')['default']
+    SuperQuality: typeof import('./sections/SuperQuality.vue')['default']
   }
 }

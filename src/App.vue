@@ -9,6 +9,15 @@
     <section className="padding">
       <PopularProducts />
     </section>
+    <section className="padding">
+      <SuperQuality />
+    </section>
+    <section className="padding-x py-10">
+      <OurServices />
+    </section>
+    <section className="padding">
+      <SpecialOffer />
+    </section>
   </main>
 </template>
 

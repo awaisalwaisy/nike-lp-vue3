@@ -16,7 +16,7 @@
 import { star } from '../assets/icons'
 // imgURL, name, price
 
-interface Props {
+type Props = {
   imgURL: string
   name: string
   price: string
