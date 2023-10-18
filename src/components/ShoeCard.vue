@@ -26,7 +26,6 @@ type Props = {
     thumbnail: string
     bigShoe: string
   }
-  changeBigShoeImage: (newImage: string) => void
   bigShoeImg: string
 }
 

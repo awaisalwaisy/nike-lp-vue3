@@ -17,10 +17,8 @@ declare module 'vue' {
     PopularProducts: typeof import('./sections/PopularProducts.vue')['default']
     ReviewCard: typeof import('./components/ReviewCard.vue')['default']
     ServiceCard: typeof import('./components/ServiceCard.vue')['default']
-    Services: typeof import('./sections/Services.vue')['default']
     ShoeCard: typeof import('./components/ShoeCard.vue')['default']
     SpecialOffer: typeof import('./sections/SpecialOffer.vue')['default']
-    Subscribe: typeof import('./sections/Subscribe.vue')['default']
     SubscribeUs: typeof import('./sections/SubscribeUs.vue')['default']
     SuperQuality: typeof import('./sections/SuperQuality.vue')['default']
   }
